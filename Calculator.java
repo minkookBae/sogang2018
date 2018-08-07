@@ -12,5 +12,6 @@ public class Calculator{
   }
   private static int minus(int a,int b){
     return a-b;
+    //마스터 주석
   }
 }
