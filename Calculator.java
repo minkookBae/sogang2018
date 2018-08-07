@@ -10,7 +10,8 @@ public class Calculator{
   private static int sum(int a, int b){
     return a + b;
   }
-  private static int minus(int a,int b){
-    return a-b;
+  private static int minus_gpu(int a, int b, int cpu){
+    return a - b;
+    //새로 만든 브런치
   }
 }
